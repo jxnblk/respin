@@ -1,0 +1,38 @@
+{
+  "name": "respin",
+  "version": "1.0.0",
+  "description": "React SVG loading spinner based on jxnblk.com/loading",
+  "main": "dist/Spinner.js",
+  "scripts": {
+    "prepublish": "babel Spinner.js --out-dir dist",
+    "docs": "babel-node docs/build",
+    "test": "ava"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "spinner",
+    "loading",
+    "loading-indicator"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-test-renderer": "^15.5.4"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  }
+}

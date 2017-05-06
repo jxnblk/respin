@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<svg
+  fill="currentcolor"
+  height={16}
+  style={
+    Object {
+      "display": "inline-flex",
+      "margin": 0,
+    }
+  }
+  viewBox="0 0 32 32"
+  width={16}
+>
+  <path
+    d="M14 0 H18 V8 H14z"
+    opacity={0.1}
+    transform="rotate(0 16 16)"
+  >
+    <animate
+      attributeName="opacity"
+      begin="0ms"
+      dur="1000ms"
+      from={1}
+      repeatCount="indefinite"
+      to={0.1}
+    />
+  </path>
+  <path
+    d="M14 0 H18 V8 H14z"
+    opacity={0.1}
+    transform="rotate(45 16 16)"
+  >
+    <animate
+      attributeName="opacity"
+      begin="125ms"
+      dur="1000ms"
+      from={1}
+      repeatCount="indefinite"
+      to={0.1}
+    />
+  </path>
+  <path
+    d="M14 0 H18 V8 H14z"
+    opacity={0.1}
+    transform="rotate(90 16 16)"
+  >
+    <animate
+      attributeName="opacity"
+      begin="250ms"
+      dur="1000ms"
+      from={1}
+      repeatCount="indefinite"
+      to={0.1}
+    />
+  </path>
+  <path
+    d="M14 0 H18 V8 H14z"
+    opacity={0.1}
+    transform="rotate(135 16 16)"
+  >
+    <animate
+      attributeName="opacity"
+      begin="375ms"
+      dur="1000ms"
+      from={1}
+      repeatCount="indefinite"
+      to={0.1}
+    />
+  </path>
+  <path
+    d="M14 0 H18 V8 H14z"
+    opacity={0.1}
+    transform="rotate(180 16 16)"
+  >
+    <animate
+      attributeName="opacity"
+      begin="500ms"
+      dur="1000ms"
+      from={1}
+      repeatCount="indefinite"
+      to={0.1}
+    />
+  </path>
+  <path
+    d="M14 0 H18 V8 H14z"
+    opacity={0.1}
+    transform="rotate(225 16 16)"
+  >
+    <animate
+      attributeName="opacity"
+      begin="625ms"
+      dur="1000ms"
+      from={1}
+      repeatCount="indefinite"
+      to={0.1}
+    />
+  </path>
+  <path
+    d="M14 0 H18 V8 H14z"
+    opacity={0.1}
+    transform="rotate(270 16 16)"
+  >
+    <animate
+      attributeName="opacity"
+      begin="750ms"
+      dur="1000ms"
+      from={1}
+      repeatCount="indefinite"
+      to={0.1}
+    />
+  </path>
+  <path
+    d="M14 0 H18 V8 H14z"
+    opacity={0.1}
+    transform="rotate(315 16 16)"
+  >
+    <animate
+      attributeName="opacity"
+      begin="875ms"
+      dur="1000ms"
+      from={1}
+      repeatCount="indefinite"
+      to={0.1}
+    />
+  </path>
+</svg>
+`;
